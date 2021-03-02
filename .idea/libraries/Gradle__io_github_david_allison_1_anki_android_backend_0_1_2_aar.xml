@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.david-allison-1:anki-android-backend:0.1.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0ee31abaa609f9f5d930a5588b2b496c/transformed/jetified-anki-android-backend-0.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0ee31abaa609f9f5d930a5588b2b496c/transformed/jetified-anki-android-backend-0.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0ee31abaa609f9f5d930a5588b2b496c/transformed/jetified-anki-android-backend-0.1.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.david-allison-1/anki-android-backend/0.1.2/2301f4c15ded7e6f9fc86f871ff9a2d177342b10/anki-android-backend-0.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.david-allison-1/anki-android-backend/0.1.2/66e11e35dbe27535e56046eb1ca4a67c8d085d55/anki-android-backend-0.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

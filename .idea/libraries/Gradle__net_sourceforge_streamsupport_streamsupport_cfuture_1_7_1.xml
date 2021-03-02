@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: net.sourceforge.streamsupport:streamsupport-cfuture:1.7.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.streamsupport/streamsupport-cfuture/1.7.1/1c559e11cd37ea9e15344384e9440897353d5056/streamsupport-cfuture-1.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.streamsupport/streamsupport-cfuture/1.7.1/47f93e7bc7a3533ac9f3e3b9ad6190ced1fdfae1/streamsupport-cfuture-1.7.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.streamsupport/streamsupport-cfuture/1.7.1/6ed7a1b8081653d25fcadd8f08d2bf0708fe1177/streamsupport-cfuture-1.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

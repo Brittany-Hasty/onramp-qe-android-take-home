@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: ch.acra:acra-limiter:5.5.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/df085e148d76b75c355dceeff333c4fd/transformed/jetified-acra-limiter-5.5.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/df085e148d76b75c355dceeff333c4fd/transformed/jetified-acra-limiter-5.5.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/df085e148d76b75c355dceeff333c4fd/transformed/jetified-acra-limiter-5.5.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.acra/acra-limiter/5.5.1/2c00c42143bce3a2b903dec9f4475004fc828450/acra-limiter-5.5.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.acra/acra-limiter/5.5.1/5694a60b643a7a84615e32d3487a6c40d7ec12e3/acra-limiter-5.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

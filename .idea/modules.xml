@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/onramp-qe-android-take-home.iml" filepath="$PROJECT_DIR$/.idea/onramp-qe-android-take-home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AnkiDroid/onramp-qe-android-take-home.AnkiDroid.iml" filepath="$PROJECT_DIR$/.idea/modules/AnkiDroid/onramp-qe-android-take-home.AnkiDroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/onramp-qe-android-take-home.api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/onramp-qe-android-take-home.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lint-rules/onramp-qe-android-take-home.lint-rules.iml" filepath="$PROJECT_DIR$/.idea/modules/lint-rules/onramp-qe-android-take-home.lint-rules.iml" />
+    </modules>
+  </component>
+</project>
