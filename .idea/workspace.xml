@@ -25,17 +25,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9491241-24d8-488a-82cd-bf670705ac31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/ExportDecksAndCollectionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddHTMLToCardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddImageToCardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNoteTypeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddTagsToDeckTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/ModifyFlashcardStylesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/CreateNewFlashcardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/CreateNewFlashcardsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/DeleteFlashcardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/DeleteFlashcardsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/EditFlashcardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/EditFlashcardsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/ExportFlashcardListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/FlashcardFrontBackDisplayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/FlashcardFrontBackDisplayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/ImportWebFlashcardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/ImportWebFlashcardsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/RestoreFlashcardsFromBackupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/RestoreFlashcardsFromBackupTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/SyncFlashcardsFromAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/SyncFlashcardsFromAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/CreateNewFlashcardsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/DeleteFlashcardsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/EditFlashcardsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/ExportDecksAndCollectionsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/ImportWebFlashcardsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/RestoreFlashcardsFromBackupTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/SyncFlashcardsFromAccountTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -351,10 +353,10 @@
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
     <state x="1727" y="2155" width="676" height="635" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614720656954" />
-    <state x="1733" y="2177" width="672" height="678" key="search.everywhere.popup" timestamp="1614732113017">
+    <state x="1733" y="2177" width="672" height="678" key="search.everywhere.popup" timestamp="1614734279151">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state x="1733" y="2177" width="672" height="678" key="search.everywhere.popup/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614732113017" />
+    <state x="1733" y="2177" width="672" height="678" key="search.everywhere.popup/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614734279151" />
     <state x="1173" y="2177" width="672" height="678" key="search.everywhere.popup/520.1920.1920.1080/580.865.500.1055/1080.840.1920.1080@520.1920.1920.1080" timestamp="1614638348909" />
   </component>
 </project>
