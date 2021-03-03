@@ -3,7 +3,7 @@ package com.sxmp.apprentice;
 import org.junit.Before;
 import org.junit.Test;
 
-public class AddStylesToNotecardsTest {
+public class AddNoteCardDeckTest {
     @Before
     public void setup() {
 

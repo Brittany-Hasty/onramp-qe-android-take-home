@@ -25,19 +25,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9491241-24d8-488a-82cd-bf670705ac31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddHTMLToCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddImageToCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNoteTypeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddTagsToDeckTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/ModifyFlashcardStylesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/CreateNewFlashcardsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/DeleteFlashcardsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/EditFlashcardsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/ExportDecksAndCollectionsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/ImportWebFlashcardsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/RestoreFlashcardsFromBackupTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/SyncFlashcardsFromAccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddHTMLToNotecardsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddImagesToNotecardsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNewDeckTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNewTypesToNotecardsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddStylesToNotecardsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddTagsToNotecardsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/DisplayNotecardFrontBackTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/RemoveDeckTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

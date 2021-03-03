@@ -3,7 +3,7 @@ package com.sxmp.apprentice;
 import org.junit.Before;
 import org.junit.Test;
 
-public class AddTagsToNotecardsTest {
+public class AddNoteCardImageTest {
     @Before
     public void setup() {
 
