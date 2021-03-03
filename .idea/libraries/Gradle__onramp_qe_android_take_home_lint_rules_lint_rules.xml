@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: onramp-qe-android-take-home.lint-rules.lint-rules">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lint-rules/build/libs/lint-rules.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

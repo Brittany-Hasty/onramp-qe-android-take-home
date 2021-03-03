@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,12 +25,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9491241-24d8-488a-82cd-bf670705ac31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/FlashcardFrontBackDisplayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/ExportDecksAndCollectionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/CreateNewFlashcardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/CreateNewFlashcardsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/DeleteFlashcardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/DeleteFlashcardsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/EditFlashcardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/EditFlashcardsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/ExportFlashcardListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/FlashcardFrontBackDisplayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/FlashcardFrontBackDisplayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/ImportWebFlashcardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/ImportWebFlashcardsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/RestoreFlashcardsFromBackupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/RestoreFlashcardsFromBackupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/SyncFlashcardsFromAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/SyncFlashcardsFromAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3a_API_30_x86]" />
   <component name="ExternalProjectsData">
@@ -82,10 +100,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-view/home/bhasty/Documents/onramp-qe-android-take-home/AnkiDroid/src/main/java/androidx/drawerlayout/widget/ClosableDrawerLayout.java_SELECTED" value="ClosableDrawerLayout" />
     <property name="memory.settings.postsync.last.time.stamp" value="1614638706871" />
-    <property name="settings.editor.selected.configurable" value="test.recorder" />
+    <property name="multi-representation-preview/home/bhasty/Documents/onramp-qe-android-take-home/AnkiDroid/src/main/java/androidx/drawerlayout/widget/ClosableDrawerLayout.java_selected" value="Custom views" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
-  <component name="RunManager" selected="Android Instrumented Tests.All Tests">
+  <component name="RunManager" selected="Gradle./home/bhasty/Documents/onramp-qe-android-take-home">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -229,9 +249,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle./home/bhasty/Documents/onramp-qe-android-take-home" />
         <item itemvalue="Android Instrumented Tests.All Tests" />
         <item itemvalue="Android JUnit.java in onramp-qe-android-take-home.AnkiDroid" />
-        <item itemvalue="Gradle./home/bhasty/Documents/onramp-qe-android-take-home" />
       </list>
     </recent_temporary>
   </component>
@@ -261,6 +281,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1939" y="2341" width="251" height="263" key="#Notifications" timestamp="1614721880521">
+      <screen x="1080" y="1920" width="1920" height="1080" />
+    </state>
+    <state x="1939" y="2341" width="251" height="263" key="#Notifications/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614721880521" />
     <state x="1756" y="2274" width="617" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614654444116">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
@@ -270,35 +294,67 @@
     </state>
     <state x="1240" y="2044" width="1660" height="855" key="AVDManager/520.1920.1920.1080/0.865.1080.1055/1080.840.1920.1080@520.1920.1920.1080" timestamp="1614648933675" />
     <state x="160" y="125" width="1660" height="855" key="AVDManager/520.1920.1920.1080/60.25.1020.1055/1080.840.1920.1080@60.25.1020.1055" timestamp="1614648309877" />
-    <state width="1814" height="278" key="GridCell.Tab.0.bottom" timestamp="1614714891106">
+    <state x="1653" y="2230" width="824" height="484" key="AndroidCreateResourceFileDialog" timestamp="1614720684397">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="1814" height="278" key="GridCell.Tab.0.bottom/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614714891106" />
+    <state x="1653" y="2230" width="824" height="484" key="AndroidCreateResourceFileDialog/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614720684397" />
+    <state x="1853" y="2215" width="424" height="513" key="FileChooserDialogImpl" timestamp="1614721741476">
+      <screen x="1080" y="1920" width="1920" height="1080" />
+    </state>
+    <state x="1853" y="2215" width="424" height="513" key="FileChooserDialogImpl/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614721741476" />
+    <state width="1814" height="278" key="GridCell.Tab.0.bottom" timestamp="1614732124091">
+      <screen x="1080" y="1920" width="1920" height="1080" />
+    </state>
+    <state width="1814" height="278" key="GridCell.Tab.0.bottom/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614732124091" />
     <state width="1814" height="278" key="GridCell.Tab.0.bottom/520.1920.1920.1080/580.865.500.1055/1080.840.1920.1080@520.1920.1920.1080" timestamp="1614638712562" />
-    <state width="1814" height="278" key="GridCell.Tab.0.center" timestamp="1614714891106">
+    <state width="1814" height="278" key="GridCell.Tab.0.center" timestamp="1614732124091">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="1814" height="278" key="GridCell.Tab.0.center/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614714891106" />
+    <state width="1814" height="278" key="GridCell.Tab.0.center/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614732124091" />
     <state width="1814" height="278" key="GridCell.Tab.0.center/520.1920.1920.1080/580.865.500.1055/1080.840.1920.1080@520.1920.1920.1080" timestamp="1614638712562" />
-    <state width="1814" height="278" key="GridCell.Tab.0.left" timestamp="1614714891105">
+    <state width="1814" height="278" key="GridCell.Tab.0.left" timestamp="1614732124091">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="1814" height="278" key="GridCell.Tab.0.left/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614714891105" />
+    <state width="1814" height="278" key="GridCell.Tab.0.left/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614732124091" />
     <state width="1814" height="278" key="GridCell.Tab.0.left/520.1920.1920.1080/580.865.500.1055/1080.840.1920.1080@520.1920.1920.1080" timestamp="1614638712562" />
-    <state width="1814" height="278" key="GridCell.Tab.0.right" timestamp="1614714891106">
+    <state width="1814" height="278" key="GridCell.Tab.0.right" timestamp="1614732124091">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="1814" height="278" key="GridCell.Tab.0.right/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614714891106" />
+    <state width="1814" height="278" key="GridCell.Tab.0.right/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614732124091" />
     <state width="1814" height="278" key="GridCell.Tab.0.right/520.1920.1920.1080/580.865.500.1055/1080.840.1920.1080@520.1920.1920.1080" timestamp="1614638712562" />
-    <state x="1559" y="2107" key="SettingsEditor" timestamp="1614713999320">
+    <state width="1814" height="278" key="GridCell.Tab.1.bottom" timestamp="1614732124091">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state x="1559" y="2107" key="SettingsEditor/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614713999320" />
+    <state width="1814" height="278" key="GridCell.Tab.1.bottom/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614732124091" />
+    <state width="1814" height="278" key="GridCell.Tab.1.center" timestamp="1614732124091">
+      <screen x="1080" y="1920" width="1920" height="1080" />
+    </state>
+    <state width="1814" height="278" key="GridCell.Tab.1.center/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614732124091" />
+    <state width="1814" height="278" key="GridCell.Tab.1.left" timestamp="1614732124091">
+      <screen x="1080" y="1920" width="1920" height="1080" />
+    </state>
+    <state width="1814" height="278" key="GridCell.Tab.1.left/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614732124091" />
+    <state width="1814" height="278" key="GridCell.Tab.1.right" timestamp="1614732124091">
+      <screen x="1080" y="1920" width="1920" height="1080" />
+    </state>
+    <state width="1814" height="278" key="GridCell.Tab.1.right/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614732124091" />
+    <state x="1559" y="2107" key="SettingsEditor" timestamp="1614728320881">
+      <screen x="1080" y="1920" width="1920" height="1080" />
+    </state>
+    <state x="1559" y="2107" key="SettingsEditor/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614728320881" />
     <state x="999" y="2107" key="SettingsEditor/520.1920.1920.1080/580.865.500.1055/1080.840.1920.1080@520.1920.1920.1080" timestamp="1614638412288" />
-    <state x="1733" y="2177" width="672" height="678" key="search.everywhere.popup" timestamp="1614713962202">
+    <state x="1240" y="2045" width="1660" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614732215990">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state x="1733" y="2177" width="672" height="678" key="search.everywhere.popup/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614713962202" />
+    <state x="1240" y="2045" width="1660" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614732215990" />
+    <state x="1727" y="2155" width="676" height="635" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1614720656954">
+      <screen x="1080" y="1920" width="1920" height="1080" />
+    </state>
+    <state x="1727" y="2155" width="676" height="635" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614720656954" />
+    <state x="1733" y="2177" width="672" height="678" key="search.everywhere.popup" timestamp="1614732113017">
+      <screen x="1080" y="1920" width="1920" height="1080" />
+    </state>
+    <state x="1733" y="2177" width="672" height="678" key="search.everywhere.popup/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614732113017" />
     <state x="1173" y="2177" width="672" height="678" key="search.everywhere.popup/520.1920.1920.1080/580.865.500.1055/1080.840.1920.1080@520.1920.1920.1080" timestamp="1614638348909" />
   </component>
 </project>
