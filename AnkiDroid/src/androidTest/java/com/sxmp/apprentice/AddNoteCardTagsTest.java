@@ -12,6 +12,16 @@ public class AddNoteCardTagsTest {
 
     }
 
+    // Steps:
+    // - Click 'Tags:'
+    // - Click '+'
+    // - Add tag name to form
+    // - Click ok
+    // - check that new tag exists
+    // - select tag
+    // - click check mark
+    // - check that card is now tagged
+
     @Test
     public void tempName() {
 
