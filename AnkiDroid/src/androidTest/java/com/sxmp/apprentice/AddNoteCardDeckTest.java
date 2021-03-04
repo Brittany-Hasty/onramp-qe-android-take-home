@@ -28,9 +28,12 @@ import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
 import static androidx.test.espresso.action.ViewActions.replaceText;
 import static androidx.test.espresso.action.ViewActions.scrollTo;
+import static androidx.test.espresso.action.ViewActions.typeText;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.assertion.ViewAssertions.selectedDescendantsMatch;
 import static androidx.test.espresso.contrib.RecyclerViewActions.actionOnItemAtPosition;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static androidx.test.espresso.matcher.ViewMatchers.withChild;
 import static androidx.test.espresso.matcher.ViewMatchers.withContentDescription;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withParent;
@@ -44,6 +47,30 @@ public class AddNoteCardDeckTest {
 
     private GrantPermissionRule grantRule =
             GrantPermissionRule.grant(WRITE_EXTERNAL_STORAGE, READ_EXTERNAL_STORAGE);
+
+    private void navigateToNewDeckForm() {
+        ViewInteraction viewInteraction = onView(
+                allOf(withId(R.id.fab_expand_menu_button), withContentDescription("Add"),
+                        childAtPosition(
+                                allOf(withId(R.id.add_content_menu),
+                                        childAtPosition(
+                                                withId(R.id.root_layout),
+                                                2)),
+                                3),
+                        isDisplayed()));
+        viewInteraction.perform(click());
+
+        ViewInteraction floatingActionButton = onView(
+                allOf(withId(R.id.add_deck_action), withContentDescription("Create deck"),
+                        childAtPosition(
+                                allOf(withId(R.id.add_content_menu),
+                                        childAtPosition(
+                                                withId(R.id.root_layout),
+                                                2)),
+                                0),
+                        isDisplayed()));
+        floatingActionButton.perform(click());
+    }
 
     @Rule
     public RuleChain ruleChain = RuleChain.outerRule(grantRule).around(activityRule);
@@ -68,14 +95,7 @@ public class AddNoteCardDeckTest {
     public void plusButtonIsClickableTest() {
         // click '+' button
         ViewInteraction viewInteraction = onView(
-                allOf(withId(R.id.fab_expand_menu_button), withContentDescription("Add"),
-                        childAtPosition(
-                                allOf(withId(R.id.add_content_menu),
-                                        childAtPosition(
-                                                withId(R.id.root_layout),
-                                                2)),
-                                3),
-                        isDisplayed()));
+                withId(R.id.fab_expand_menu_button));
         viewInteraction.perform(click());
     }
 
@@ -118,7 +138,10 @@ public class AddNoteCardDeckTest {
 
     @Test
     public void formExistsAfterNewDeckClickTest(){
-        // form exists
+        // form exists after click
+
+        navigateToNewDeckForm();
+
         ViewInteraction viewGroup = onView(
                 allOf(withId(R.id.md_root),
                         withParent(allOf(withId(android.R.id.content),
@@ -130,6 +153,9 @@ public class AddNoteCardDeckTest {
     @Test
     public void createDeckTextInNewDeckFormTest() {
         // 'create deck' text is on form
+
+        navigateToNewDeckForm();
+
         ViewInteraction textView2 = onView(
                 allOf(withId(R.id.md_title), withText("Create deck"),
                         withParent(allOf(withId(R.id.md_titleFrame),
@@ -141,6 +167,9 @@ public class AddNoteCardDeckTest {
     @Test
     public void newDeckFormContainsTextInputTest() {
         // text input form appears
+
+        navigateToNewDeckForm();
+
         ViewInteraction editText = onView(
                 allOf(withParent(withParent(withId(R.id.md_customViewFrame))),
                         isDisplayed()));
@@ -150,6 +179,9 @@ public class AddNoteCardDeckTest {
     @Test
     public void newDeckFormTextInputIsEmptyTest() {
         // text form is blank
+
+        navigateToNewDeckForm();
+
         ViewInteraction editText2 = onView(
                 allOf(withParent(withParent(withId(R.id.md_customViewFrame))),
                         isDisplayed()));
@@ -159,6 +191,9 @@ public class AddNoteCardDeckTest {
     @Test
     public void newDeckFormContainsCancelButtonTest() {
         // 'cancel' button appears
+
+        navigateToNewDeckForm();
+
         ViewInteraction textView3 = onView(
                 allOf(withId(R.id.md_buttonDefaultNegative), withText("CANCEL"),
                         withParent(allOf(withId(R.id.md_root),
@@ -170,6 +205,9 @@ public class AddNoteCardDeckTest {
     @Test
     public void newDeckFormContainsOKButtonTest() {
         // 'ok' button appears
+
+        navigateToNewDeckForm();
+
         ViewInteraction textView4 = onView(
                 allOf(withId(R.id.md_buttonDefaultPositive), withText("OK"),
                         withParent(allOf(withId(R.id.md_root),
@@ -181,6 +219,9 @@ public class AddNoteCardDeckTest {
     @Test
     public void newDeckTextInputTakesTextTest() {
         // type 'testing' into form
+
+        navigateToNewDeckForm();
+
         ViewInteraction fixedEditText = onView(
                 childAtPosition(
                         childAtPosition(
@@ -193,16 +234,32 @@ public class AddNoteCardDeckTest {
     @Test
     public void newDeckTextInputContainsTypedTextTest() {
         // check that form contains the text 'testing'
-        ViewInteraction editText3 = onView(
-                allOf(withText("testing"),
-                        withParent(withParent(withId(R.id.md_customViewFrame))),
-                        isDisplayed()));
-        editText3.check(matches(withText("testing")));
+
+        navigateToNewDeckForm();
+
+        ViewInteraction fixedEditText = onView(
+                childAtPosition(
+                        childAtPosition(
+                                withId(R.id.md_customViewFrame),
+                                0),
+                        0));
+        fixedEditText.perform(scrollTo(), replaceText("testing"), closeSoftKeyboard());
+        fixedEditText.check(matches(withText("testing")));
     }
 
     @Test
     public void newDeckFormOKButtonIsClickableTest() {
         // click ok button
+        navigateToNewDeckForm();
+
+        ViewInteraction fixedEditText = onView(
+                childAtPosition(
+                        childAtPosition(
+                                withId(R.id.md_customViewFrame),
+                                0),
+                        0));
+        fixedEditText.perform(scrollTo(), typeText("testing"), closeSoftKeyboard());
+
         ViewInteraction mDButton2 = onView(
                 allOf(withId(R.id.md_buttonDefaultPositive), withText("OK"),
                         childAtPosition(
@@ -217,17 +274,7 @@ public class AddNoteCardDeckTest {
 
     @Test
     public void newDeckElementAppearsAfterCreationTest() {
-        // check that a new deck element appears
-        ViewInteraction linearLayout = onView(
-                allOf(withParent(allOf(withId(R.id.DeckPickerHoriz),
-                        withParent(withId(R.id.files)))),
-                        isDisplayed()));
-        linearLayout.check(matches(isDisplayed()));
-    }
-
-    @Test
-    public void newDeckElementContainsTitleTest() {
-        // check that the new deck has the text 'testing'
+        // check that a new deck appears and has the text 'testing'
         ViewInteraction textView5 = onView(
                 allOf(withId(R.id.deckpicker_name), withText("testing"),
                         withParent(withParent(withId(R.id.DeckPickerHoriz))),
@@ -238,34 +285,38 @@ public class AddNoteCardDeckTest {
     @Test
     public void newDeckContainsNoCardsInFirstColumnTest() {
         // check that the new deck has no cards listed in column 1
-        ViewInteraction textView6 = onView(
-                allOf(withId(R.id.deckpicker_new), withText("0"),
-                        withParent(allOf(withId(R.id.counts_layout),
-                                withParent(withId(R.id.DeckPickerHoriz)))),
+        ViewInteraction textView5 = onView(
+                allOf(withId(R.id.deckpicker_name), withText("testing"),
+                        withParent(withParent(withId(R.id.DeckPickerHoriz))),
                         isDisplayed()));
-        textView6.check(matches(withText("0")));
+        textView5.check(selectedDescendantsMatch(
+                withId(R.id.deckpicker_new), withText("0"))
+        );
     }
 
     @Test
     public void newDeckContainsNoCardsInSecondColumnTest() {
         // check that the new deck has no cards listed in column 2
-        ViewInteraction textView7 = onView(
-                allOf(withId(R.id.deckpicker_lrn), withText("0"),
-                        withParent(allOf(withId(R.id.counts_layout),
-                                withParent(withId(R.id.DeckPickerHoriz)))),
+        ViewInteraction textView5 = onView(
+                allOf(withId(R.id.deckpicker_name), withText("testing"),
+                        withParent(withParent(withId(R.id.DeckPickerHoriz))),
                         isDisplayed()));
-        textView7.check(matches(withText("0")));
+        textView5.check(selectedDescendantsMatch(
+                withId(R.id.deckpicker_lrn), withText("0"))
+        );
+
     }
 
     @Test
     public void newDeckContainsNoCardsInThirdColumnTest() {
         // check that the new deck has no cards listed in column 3
-        ViewInteraction textView8 = onView(
-                allOf(withId(R.id.deckpicker_rev), withText("0"),
-                        withParent(allOf(withId(R.id.counts_layout),
-                                withParent(withId(R.id.DeckPickerHoriz)))),
+        ViewInteraction textView5 = onView(
+                allOf(withId(R.id.deckpicker_name), withText("testing"),
+                        withParent(withParent(withId(R.id.DeckPickerHoriz))),
                         isDisplayed()));
-        textView8.check(matches(withText("0")));
+        textView5.check(selectedDescendantsMatch(
+                withId(R.id.deckpicker_rev), withText("0"))
+        );
     }
 
     @Test

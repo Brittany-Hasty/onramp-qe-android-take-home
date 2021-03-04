@@ -29,11 +29,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/AnkiDroid/onramp-qe-android-take-home.AnkiDroid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/AnkiDroid/onramp-qe-android-take-home.AnkiDroid.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/api/onramp-qe-android-take-home.api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/api/onramp-qe-android-take-home.api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNoteCardDeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNoteCardDeckTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNoteCardTagsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNoteCardTagsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,9 +194,217 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="formExistsAfterNew...()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="onramp-qe-android-take-home.AnkiDroid" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="METHOD_NAME" value="formExistsAfterNewDeckClickTest" />
+      <option name="CLASS_NAME" value="com.sxmp.apprentice.AddNoteCardDeckTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="newDeckContainsNoC...()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="onramp-qe-android-take-home.AnkiDroid" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="METHOD_NAME" value="newDeckContainsNoCardsInFirstColumnTest" />
+      <option name="CLASS_NAME" value="com.sxmp.apprentice.AddNoteCardDeckTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="newDeckTextInputCo...()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="onramp-qe-android-take-home.AnkiDroid" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="METHOD_NAME" value="newDeckTextInputContainsTypedTextTest" />
+      <option name="CLASS_NAME" value="com.sxmp.apprentice.AddNoteCardDeckTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="newDeckTextInputTa...()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="onramp-qe-android-take-home.AnkiDroid" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="METHOD_NAME" value="newDeckTextInputTakesTextTest" />
+      <option name="CLASS_NAME" value="com.sxmp.apprentice.AddNoteCardDeckTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Android Instrumented Tests.Tests in 'com.sxmp.apprentice'" />
+        <item itemvalue="Android Instrumented Tests.newDeckContainsNoC...()" />
+        <item itemvalue="Android Instrumented Tests.newDeckTextInputCo...()" />
+        <item itemvalue="Android Instrumented Tests.newDeckTextInputTa...()" />
+        <item itemvalue="Android Instrumented Tests.formExistsAfterNew...()" />
       </list>
     </recent_temporary>
   </component>
@@ -228,41 +433,45 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="2009" y="2499" width="474" height="169" key="#com.google.gct.testrecorder.ui.TestClassNameInputDialog" timestamp="1614805484325">
+    <state x="2009" y="2499" width="484" height="169" key="#com.google.gct.testrecorder.ui.TestClassNameInputDialog" timestamp="1614816593797">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state x="2009" y="2499" width="474" height="169" key="#com.google.gct.testrecorder.ui.TestClassNameInputDialog/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614805484325" />
-    <state width="1814" height="278" key="GridCell.Tab.0.bottom" timestamp="1614807443382">
+    <state x="2009" y="2499" width="484" height="169" key="#com.google.gct.testrecorder.ui.TestClassNameInputDialog/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614816593797" />
+    <state x="1240" y="2045" width="1660" height="855" key="AVDManager" timestamp="1614817548474">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="1814" height="278" key="GridCell.Tab.0.bottom/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614807443382" />
-    <state width="1814" height="278" key="GridCell.Tab.0.center" timestamp="1614807443382">
+    <state x="1240" y="2045" width="1660" height="855" key="AVDManager/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614817548474" />
+    <state width="1814" height="277" key="GridCell.Tab.0.bottom" timestamp="1614823938835">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="1814" height="278" key="GridCell.Tab.0.center/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614807443382" />
-    <state width="1814" height="278" key="GridCell.Tab.0.left" timestamp="1614807443382">
+    <state width="1814" height="277" key="GridCell.Tab.0.bottom/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614823938835" />
+    <state width="1814" height="277" key="GridCell.Tab.0.center" timestamp="1614823938835">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="1814" height="278" key="GridCell.Tab.0.left/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614807443382" />
-    <state width="1814" height="278" key="GridCell.Tab.0.right" timestamp="1614807443382">
+    <state width="1814" height="277" key="GridCell.Tab.0.center/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614823938835" />
+    <state width="1814" height="277" key="GridCell.Tab.0.left" timestamp="1614823938835">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="1814" height="278" key="GridCell.Tab.0.right/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614807443382" />
-    <state width="1814" height="278" key="GridCell.Tab.1.bottom" timestamp="1614807231662">
+    <state width="1814" height="277" key="GridCell.Tab.0.left/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614823938835" />
+    <state width="1814" height="277" key="GridCell.Tab.0.right" timestamp="1614823938835">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="1814" height="278" key="GridCell.Tab.1.bottom/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614807231662" />
-    <state width="1814" height="278" key="GridCell.Tab.1.center" timestamp="1614807231662">
+    <state width="1814" height="277" key="GridCell.Tab.0.right/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614823938835" />
+    <state width="1814" height="278" key="GridCell.Tab.1.bottom" timestamp="1614819970537">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="1814" height="278" key="GridCell.Tab.1.center/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614807231662" />
-    <state width="1814" height="278" key="GridCell.Tab.1.left" timestamp="1614807231662">
+    <state width="1814" height="278" key="GridCell.Tab.1.bottom/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614819970537" />
+    <state width="1814" height="278" key="GridCell.Tab.1.center" timestamp="1614819970536">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="1814" height="278" key="GridCell.Tab.1.left/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614807231662" />
-    <state width="1814" height="278" key="GridCell.Tab.1.right" timestamp="1614807231662">
+    <state width="1814" height="278" key="GridCell.Tab.1.center/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614819970536" />
+    <state width="1814" height="278" key="GridCell.Tab.1.left" timestamp="1614819970536">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="1814" height="278" key="GridCell.Tab.1.right/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614807231662" />
+    <state width="1814" height="278" key="GridCell.Tab.1.left/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614819970536" />
+    <state width="1814" height="278" key="GridCell.Tab.1.right" timestamp="1614819970536">
+      <screen x="1080" y="1920" width="1920" height="1080" />
+    </state>
+    <state width="1814" height="278" key="GridCell.Tab.1.right/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614819970536" />
   </component>
 </project>
