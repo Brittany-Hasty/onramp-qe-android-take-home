@@ -8,6 +8,7 @@
  7. Adding images to notecards
  8. Adding tags to notecards
 ## Why I Selected These Features
+## Feature Edge Cases Considered 
 ## ViewMatchers Used
 ## ViewActions Used
 ## ViewAssertions Used
