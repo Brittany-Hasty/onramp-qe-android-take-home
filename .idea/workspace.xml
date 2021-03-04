@@ -26,7 +26,6 @@
   <component name="ChangeListManager">
     <list default="true" id="31af92d8-ada5-43b1-84d3-4316427eba1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNoteCardHTMLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNoteCardHTMLTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNoteCardImageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNoteCardImageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNoteCardTagsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNoteCardTagsTest.java" afterDir="false" />
     </list>

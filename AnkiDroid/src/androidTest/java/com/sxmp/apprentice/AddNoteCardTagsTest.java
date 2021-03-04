@@ -105,11 +105,11 @@ public class AddNoteCardTagsTest {
 
     @Test
     public void newCardReflectsAddedTagInputTest() {
-
+        // Better suited for DisplayNoteCardFrontBackTest?
     }
 
     @Test
     public void newCardReflectsEmptyTagInputTest() {
-
+        // Better suited for DisplayNoteCardFrontBackTest?
     }
 }

@@ -77,22 +77,142 @@ public class AddNoteCardImageTest {
     // - Check that form is filled with an img tag
 
     @Test
-    public void newCardFormContainsFrontImageInputTest() {
+    public void newCardFormFrontContainsMediaLinkTest() {
 
     }
 
     @Test
-    public void cardFormFrontImageInputTakesImageTest() {
+    public void newCardFormBackContainsMediaLinkTest() {
 
     }
 
     @Test
-    public void newCardFormContainsBackImageInputTest() {
+    public void frontMediaLinkListContainsImageInputTest() {
 
     }
 
     @Test
-    public void cardFormBackImageInputTakesImageTest() {
+    public void backMediaLinkListContainsImageInputTest() {
+
+    }
+
+    @Test
+    public void frontMediaListAddImageIsClickableTest() {
+
+    }
+
+    @Test
+    public void backMediaListAddImageIsClickableTest() {
+
+    }
+
+    @Test
+    public void frontAddImagePullsUpGalleryOrCameraFormTest() {
+
+    }
+
+    @Test
+    public void backAddImagePullsUpGalleryOrCameraFormTest() {
+
+    }
+
+    @Test
+    public void addImageFromGalleryIsClickableTest() {
+
+    }
+
+    @Test
+    public void addImageFromCameraIsClickableTest() {
+
+    }
+
+    @Test
+    public void addImageFromGalleryBringsUpGalleryTest() {
+
+    }
+
+    @Test
+    public void addImageGalleryViewContainsSelectPhotoTextTest() {
+
+    }
+
+    @Test
+    public void addImageGalleryPhotoIsClickableTest() {
+
+    }
+
+    @Test
+    public void addImageGalleryUploadBringsUpMenuTest() {
+
+    }
+
+    @Test
+    public void addImageFromCameraBringsUpCameraTest() {
+
+    }
+
+    @Test
+    public void addImageFromCameraCanTakePhotoOnClickTest() {
+
+    }
+
+    @Test
+    public void addImageFromCameraUploadBringsUpMenuTest() {
+
+    }
+
+    @Test
+    public void imageUploadMenuAsksAboutCroppingTest() {
+        // Is this camera specific?
+    }
+
+    @Test
+    public void imageUploadCroppingPopupBringsUpCroppingMenuTest() {
+
+    }
+
+    @Test
+    public void cropImageAppearsOnImageUploadMenuTest() {
+
+    }
+
+    @Test
+    public void uploadedImagePreviewAppearsOnImageUploadMenuTest() {
+
+    }
+
+    @Test
+    public void uploadedImageFileSizeAppearsOnImageUploadMenuTest() {
+
+    }
+
+    @Test
+    public void galleryButtonStillAppearsOnMenuAfterImageUploadTest() {
+
+    }
+
+    @Test
+    public void cameraButtonStillAppearsOnMenuAfterImageUploadTest() {
+
+    }
+
+    @Test
+    public void cardFormFrontImageInputTakesCameraImageTest() {
+
+    }
+
+    @Test
+    public void cardFormBackImageInputTakesCameraImageTest() {
+
+    }
+
+    @Test
+    public void cardFormFrontImageInputTakesGalleryImageTest() {
+
+    }
+
+    @Test
+    public void cardFormBackImageInputTakesGalleryImageTest() {
 
     }
 
