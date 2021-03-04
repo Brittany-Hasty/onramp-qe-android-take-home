@@ -40,6 +40,7 @@ public class AddNoteCardDeckTest {
             GrantPermissionRule.grant(WRITE_EXTERNAL_STORAGE, READ_EXTERNAL_STORAGE);
 
     private void navigateToNewDeckForm() {
+        // The new deck form must be open
         onView(withId(R.id.fab_expand_menu_button)).perform(click());
         onView(withId(R.id.add_deck_action)).perform(click());
     }

@@ -41,30 +41,78 @@ public class AddNoteCardHTMLTest {
     @Before
     public void setup() {
         // App needs to be open
-        // A deck needs to exist
-        // A card must be open to the add/edit form
-        // The form must have type 'Basic' or 'Basic (type in the answer)'
-
         activityRule.launchActivity(null);
+
+        // A sample deck needs to exist
         onView(withId(R.id.fab_expand_menu_button)).perform(click());
         onView(withId(R.id.add_deck_action)).perform(click());
         onView(withId(R.id.md_customViewFrame))
                 .perform(scrollTo(), replaceText("sample"), closeSoftKeyboard());
         onView(withId(R.id.md_buttonDefaultPositive)).perform(click());
-        onView(withId(R.id.files)).perform(actionOnItemAtPosition(3, click()));
-        onView(allOf(withId(R.id.snackbar_action), withText("Add card"))).perform(click());
+
+        // A card must be open to the add/edit form
+        onView(withId(R.id.fab_expand_menu_button)).perform(click());
+        onView(withId(R.id.add_note_action)).perform(click());
+
+        // The form must have type 'Basic (type in the answer)' and belong to the sample deck
+        onView(withId(R.id.note_type_spinner)).perform(click());
+        onView(allOf(withId(R.id.custom_study_details_text1), withText("Basic (type in the answer)"))).perform(click());
+        onView(withId(R.id.note_deck_spinner)).perform(click());
+        onView(allOf(withId(R.id.custom_study_details_text1), withText("sample"))).perform(click());
     }
 
-    // Steps:
-    // - Click 'Front' form field
-    // - Fill in 'Front' form field with HTML
-    // - Click 'Back' form field
-    // - Fill in 'Back' form field with HTML
-    // - Click check mark
-    // - Check that new/modified note exists
+    @Test
+    public void newCardFormContainsFrontTextInputTest() {
+
+    }
 
     @Test
-    public void tempName() {
+    public void cardFormFrontTextIsEmptyTest() {
+
+    }
+
+    @Test
+    public void cardFormFrontTextInputTakesTextTest() {
+
+    }
+
+    @Test
+    public void newCardFormContainsBackTextInputTest() {
+
+    }
+
+    @Test
+    public void cardFormBackTextIsEmptyTest() {
+
+    }
+
+    @Test
+    public void cardFormBackTextInputTakesTextTest() {
+
+    }
+
+    @Test
+    public void cardFormDoesNotAcceptEmptyCardTest() {
+
+    }
+
+    @Test
+    public void cardFormAcceptsFilledOutCardTest() {
+
+    }
+
+    @Test
+    public void cardRendersHTMLTest() {
+
+    }
+
+    @Test
+    public void cardFormRejectsInjectedScriptsTest() {
+
+    }
+
+    @Test
+    public void newCardShowsUpInDeckTest() {
 
     }
 }
