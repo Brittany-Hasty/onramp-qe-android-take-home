@@ -97,7 +97,7 @@ public class AddNoteCardHTMLTest {
     }
 
     @Test
-    public void cardFormAcceptsFilledOutCardTest() {
+    public void cardFormAcceptsFilledOutHTMLCardTest() {
 
     }
 
@@ -112,7 +112,7 @@ public class AddNoteCardHTMLTest {
     }
 
     @Test
-    public void newCardShowsUpInDeckTest() {
+    public void newHTMLCardShowsUpInDeckTest() {
 
     }
 }
