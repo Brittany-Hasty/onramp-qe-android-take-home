@@ -94,12 +94,172 @@ public class AddNoteCardTagsTest {
     }
 
     @Test
+    public void selectAllTagsButtonIsClickableTest() {
+
+    }
+
+    @Test
+    public void selectAllTagsButtonSelectsAllTagsTest() {
+
+    }
+
+    @Test
+    public void selectAllTagsDoubleClickDeselectsAllTagsTest() {
+
+    }
+
+    @Test
+    public void tagFormAddTagIconIsClickableTest() {
+
+    }
+
+    @Test
+    public void addTagIconBringsUpNewTagFormTestTest() {
+
+    }
+
+    @Test
+    public void addTagIconBringsUpAddTagTextTest() {
+
+    }
+
+    @Test
+    public void newTagFormHasCancelButtonTest() {
+
+    }
+
+    @Test
+    public void newTagFormHasOkButtonTest() {
+
+    }
+
+    @Test
+    public void newTagFormCancelButtonIsClickableTest() {
+
+    }
+
+    @Test
+    public void newTagFormCancelButtonClickReturnsToTagListTest() {
+
+    }
+
+    @Test
+    public void newTagFormOkButtonIsClickableTest() {
+
+    }
+
+    @Test
+    public void newTagFormTextInputFieldExistsTest() {
+
+    }
+
+    @Test
+    public void newTagFormTextInputFieldIsEmptyTest() {
+
+    }
+
+    @Test
+    public void newTagFormTextInputFieldIsClickableTest() {
+
+    }
+
+    @Test
+    public void newTagFormRejectsEmptyTagFieldTest() {
+
+    }
+
+    @Test
+    public void newTagFormTakesInputTest() {
+
+    }
+
+    @Test
     public void newCardTagIsAddedToFormTest() {
 
     }
 
     @Test
     public void newCardTagsAreAddedToFormTest() {
+
+    }
+
+    @Test
+    public void tagFormSearchIconExistsTest() {
+
+    }
+
+    @Test
+    public void tagFormSearchIconIsClickableTest() {
+
+    }
+
+    @Test
+    public void tagFormSearchFieldIsEmptyTest() {
+
+    }
+
+    @Test
+    public void tagFormSearchFieldTakesTextTest() {
+
+    }
+
+    @Test
+    public void tagFormSearchReturnsMatchingTagsTest() {
+
+    }
+
+    @Test
+    public void tagFormSearchDoesNotReturnNonMatchingTagsTest() {
+
+    }
+
+    @Test
+    public void tagFormSearchFieldDisplaysXWhenFilledTest() {
+
+    }
+
+    @Test
+    public void tagFormSearchFieldXClearsTextTest() {
+
+    }
+
+    @Test
+    public void newCardTagFormContainsCancelTextTest() {
+
+    }
+
+    @Test
+    public void newCardTagFormContainsOkTextTest() {
+
+    }
+
+    @Test
+    public void tagFormCancelButtonClickReturnsToNewCardFormTest() {
+
+    }
+
+    @Test
+    public void tagFormOkButtonClickReturnsToNewCardFormTest() {
+
+    }
+
+    @Test
+    public void tagFormOKButtonIsValidWithNoTagsSelectedTest() {
+
+    }
+
+    @Test
+    public void tagFormOkButtonUpdatesTagsFromSelectedToNotSelectedTest() {
+
+    }
+
+    @Test
+    public void newCardTagFieldReflectsSelectedTagsTest() {
+
+    }
+
+    @Test
+    public void newCardTagFieldIsEmptyWhenNoTagsAreSelectedTest() {
 
     }
 

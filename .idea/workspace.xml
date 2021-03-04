@@ -26,7 +26,6 @@
   <component name="ChangeListManager">
     <list default="true" id="31af92d8-ada5-43b1-84d3-4316427eba1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNoteCardImageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNoteCardImageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNoteCardTagsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNoteCardTagsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -472,5 +471,9 @@
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
     <state width="1814" height="278" key="GridCell.Tab.1.right/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614831732339" />
+    <state x="1733" y="2177" width="672" height="678" key="search.everywhere.popup" timestamp="1614889359746">
+      <screen x="1080" y="1920" width="1920" height="1080" />
+    </state>
+    <state x="1733" y="2177" width="672" height="678" key="search.everywhere.popup/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614889359746" />
   </component>
 </project>
