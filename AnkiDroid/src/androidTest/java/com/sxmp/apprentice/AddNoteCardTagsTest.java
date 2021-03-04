@@ -53,6 +53,9 @@ public class AddNoteCardTagsTest {
         onView(allOf(withId(R.id.custom_study_details_text1), withText("Basic (type in the answer)"))).perform(click());
         onView(withId(R.id.note_deck_spinner)).perform(click());
         onView(allOf(withId(R.id.custom_study_details_text1), withText("sample"))).perform(click());
+
+        // There must be a selection of tags to choose from during tests
+
     }
 
     // Steps:
@@ -66,7 +69,47 @@ public class AddNoteCardTagsTest {
     // - check that card is now tagged
 
     @Test
-    public void tempName() {
+    public void newCardFormHasTagManagerButtonTest() {
+
+    }
+
+    @Test
+    public void newCardFormTagManagerIsClickableTest() {
+
+    }
+
+    @Test
+    public void newCardTagsAreInitiallyUnselectedTest() {
+
+    }
+
+    @Test
+    public void newCardTagsAreSelectableTest() {
+
+    }
+
+    @Test
+    public void multipleNewCardTagsAreSelectableTest() {
+
+    }
+
+    @Test
+    public void newCardTagIsAddedToFormTest() {
+
+    }
+
+    @Test
+    public void newCardTagsAreAddedToFormTest() {
+
+    }
+
+    @Test
+    public void newCardReflectsAddedTagInputTest() {
+
+    }
+
+    @Test
+    public void newCardReflectsEmptyTagInputTest() {
 
     }
 }

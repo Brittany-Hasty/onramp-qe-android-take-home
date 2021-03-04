@@ -103,7 +103,7 @@ public class AddNoteCardHTMLTest {
 
     @Test
     public void cardRendersHTMLTest() {
-
+        // Better suited for DisplayNoteCardFrontBackTest?
     }
 
     @Test

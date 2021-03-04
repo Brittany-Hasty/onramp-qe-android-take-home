@@ -108,7 +108,7 @@ public class AddNoteCardImageTest {
 
     @Test
     public void cardRendersImageTest() {
-
+        // Better suited for DisplayNoteCardFrontBackTest?
     }
 
     @Test
