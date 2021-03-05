@@ -40,4 +40,26 @@ Problem 3:
     
     After looking up if the Android emulator had anything similar to 'Inspect element', I found out about the layout inspector, which solved my problem
      
+Problem 4:
 
+    The emulated Android device had the repeating error "system UI is not responding"
+    
+    After getting a message on Android Studio that my IDE was low on memory, I allocated more memory to it, and this solved the unresponsive emulator as well
+
+Problem 5:
+
+    Having little prior experience with Android Studio, I had to learn Android's file structure and how to implement tests
+    
+    I spent a while getting familiar with the files in the file explorer, and then some of the features of Android Studio.
+    
+    After I found the project folder dropdown menu, I was able to filter the files by category, including 'tests'
+    
+    By process of elimaination, the lint-rules folder was for the code, not the appp, and the api folder already had some rudimentary tests.
+    
+    That left only the AnkiDroid folder, which had two additional folders. Once again, one of those folders was already filled with numberous tests, so I looked inside the other folder.
+    
+    This folder had one file only, SampleDeckPickerTest, which had an empty sample function 'oneOfYourTests()'. I came to the conclusion that this was the necessary folder for the tests.
+    
+    After familiarizing myself with the environment a little more, I looked up the default testing folders and found them to match the conclusions I had made.
+    
+    
