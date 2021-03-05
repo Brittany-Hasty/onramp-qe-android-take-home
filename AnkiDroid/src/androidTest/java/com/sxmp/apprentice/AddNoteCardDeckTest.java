@@ -45,6 +45,14 @@ public class AddNoteCardDeckTest {
         onView(withId(R.id.add_deck_action)).perform(click());
     }
 
+    private void createTestDeck() {
+        navigateToNewDeckForm();
+        onView(allOf(instanceOf(FixedEditText.class), isDisplayed()))
+                .perform(scrollTo(), replaceText("testing"), closeSoftKeyboard());
+        onView(allOf(withId(R.id.md_buttonDefaultPositive), withText("OK"), isDisplayed()))
+                .perform(click());
+    }
+
     @Rule
     public RuleChain ruleChain = RuleChain.outerRule(grantRule).around(activityRule);
 
@@ -162,12 +170,14 @@ public class AddNoteCardDeckTest {
     @Test
     public void newDeckElementAppearsAfterCreationTest() {
         // check that a new deck appears and has the text 'testing'
-        onView(allOf(withId(R.id.deckpicker_name), withText("testing"), isDisplayed()));
+        createTestDeck();
+        onView(allOf(withId(R.id.deckpicker_name), withText("testing"))).check(matches(isDisplayed()));
     }
 
     @Test
     public void newDeckContainsNoCardsInFirstColumnTest() {
         // check that the new deck has no cards listed in column 1
+        createTestDeck();
         onView(allOf(withId(R.id.deckpicker_name), withText("testing")))
                 .check(selectedDescendantsMatch(withId(R.id.deckpicker_new), withText("0")));
     }
@@ -175,13 +185,14 @@ public class AddNoteCardDeckTest {
     @Test
     public void newDeckContainsNoCardsInSecondColumnTest() {
         // check that the new deck has no cards listed in column 2
+        createTestDeck();
         onView(allOf(withId(R.id.deckpicker_name), withText("testing")))
                 .check(selectedDescendantsMatch(withId(R.id.deckpicker_lrn), withText("0")));
     }
 
     @Test
     public void newDeckContainsNoCardsInThirdColumnTest() {
-        // check that the new deck has no cards listed in column 3
+        createTestDeck();// check that the new deck has no cards listed in column 3
         onView(allOf(withId(R.id.deckpicker_name), withText("testing")))
                 .check(selectedDescendantsMatch(withId(R.id.deckpicker_rev), withText("0")));
     }
@@ -189,6 +200,7 @@ public class AddNoteCardDeckTest {
     @Test
     public void newDeckEntryIsClickableTest() {
         // click the new 'testing' deck
+        createTestDeck();
         onView(allOf(withId(R.id.files), hasDescendant(allOf(withId(R.id.deckpicker_name), withText("testing")))))
                 .perform(click());
     }
