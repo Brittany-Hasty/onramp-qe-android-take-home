@@ -1,13 +1,17 @@
 package com.sxmp.apprentice;
 
+import android.view.View;
+
 import com.ichi2.anki.DeckPicker;
 import com.ichi2.anki.R;
 
+import org.hamcrest.core.IsInstanceOf;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.RuleChain;
 
+import androidx.test.espresso.ViewInteraction;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.rule.GrantPermissionRule;
 
@@ -18,8 +22,15 @@ import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
 import static androidx.test.espresso.action.ViewActions.replaceText;
 import static androidx.test.espresso.action.ViewActions.scrollTo;
+import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.contrib.RecyclerViewActions.actionOnItemAtPosition;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static androidx.test.espresso.matcher.ViewMatchers.withClassName;
+import static androidx.test.espresso.matcher.ViewMatchers.withContentDescription;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withParent;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
+import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.Matchers.allOf;
 
 public class AddNoteCardTagsTest {
@@ -31,6 +42,7 @@ public class AddNoteCardTagsTest {
 
     @Rule
     public RuleChain ruleChain = RuleChain.outerRule(grantRule).around(activityRule);
+
 
     @Before
     public void setup() {
@@ -58,218 +70,134 @@ public class AddNoteCardTagsTest {
 
     }
 
-    // Steps:
-    // - Click 'Tags:'
-    // - Click '+'
-    // - Add tag name to form
-    // - Click ok
-    // - check that new tag exists
-    // - select tag
-    // - click check mark
-    // - check that card is now tagged
 
     @Test
     public void newCardFormHasTagManagerButtonTest() {
-
+        onView(allOf(withId(R.id.CardEditorTagText), withText("Tags: "),
+                withParent(allOf(withId(R.id.CardEditorTagButton),
+                        withParent(IsInstanceOf.<View>instanceOf(android.widget.LinearLayout.class)))),
+                isDisplayed())).check(matches(withText("Tags: ")));
     }
+
 
     @Test
     public void newCardFormTagManagerIsClickableTest() {
-
+        onView(withId(R.id.CardEditorTagButton)).perform(scrollTo(), click());
     }
 
-    @Test
-    public void newCardTagsAreInitiallyUnselectedTest() {
-
-    }
 
     @Test
     public void newCardTagsAreSelectableTest() {
-
+        onView(withId(R.id.tags_dialog_tags_list)).perform(actionOnItemAtPosition(4, click()));
     }
+
 
     @Test
     public void multipleNewCardTagsAreSelectableTest() {
-
+        onView(withId(R.id.tags_dialog_tags_list)).perform(actionOnItemAtPosition(4, click()));
+        onView(withId(R.id.tags_dialog_tags_list)).perform(actionOnItemAtPosition(9, click()));
     }
+
 
     @Test
     public void selectAllTagsButtonIsClickableTest() {
-
+        onView(allOf(withId(R.id.tags_dialog_action_select_all), withContentDescription("Check/uncheck all tags")
+                , isDisplayed())).perform(click());
     }
 
-    @Test
-    public void selectAllTagsButtonSelectsAllTagsTest() {
-
-    }
 
     @Test
     public void selectAllTagsDoubleClickDeselectsAllTagsTest() {
-
+        onView(allOf(withId(R.id.tags_dialog_action_select_all)
+                , withContentDescription("Check/uncheck all tags"), isDisplayed())).perform(click());
     }
-
-    @Test
-    public void tagFormAddTagIconIsClickableTest() {
-
-    }
-
-    @Test
-    public void addTagIconBringsUpNewTagFormTestTest() {
-
-    }
-
-    @Test
-    public void addTagIconBringsUpAddTagTextTest() {
-
-    }
-
-    @Test
-    public void newTagFormHasCancelButtonTest() {
-
-    }
-
-    @Test
-    public void newTagFormHasOkButtonTest() {
-
-    }
-
-    @Test
-    public void newTagFormCancelButtonIsClickableTest() {
-
-    }
-
-    @Test
-    public void newTagFormCancelButtonClickReturnsToTagListTest() {
-
-    }
-
-    @Test
-    public void newTagFormOkButtonIsClickableTest() {
-
-    }
-
-    @Test
-    public void newTagFormTextInputFieldExistsTest() {
-
-    }
-
-    @Test
-    public void newTagFormTextInputFieldIsEmptyTest() {
-
-    }
-
-    @Test
-    public void newTagFormTextInputFieldIsClickableTest() {
-
-    }
-
-    @Test
-    public void newTagFormRejectsEmptyTagFieldTest() {
-
-    }
-
-    @Test
-    public void newTagFormTakesInputTest() {
-
-    }
-
-    @Test
-    public void newCardTagIsAddedToFormTest() {
-
-    }
-
-    @Test
-    public void newCardTagsAreAddedToFormTest() {
-
-    }
-
-    @Test
-    public void tagFormSearchIconExistsTest() {
-
-    }
-
-    @Test
-    public void tagFormSearchIconIsClickableTest() {
-
-    }
-
-    @Test
-    public void tagFormSearchFieldIsEmptyTest() {
-
-    }
-
-    @Test
-    public void tagFormSearchFieldTakesTextTest() {
-
-    }
-
-    @Test
-    public void tagFormSearchReturnsMatchingTagsTest() {
-
-    }
-
-    @Test
-    public void tagFormSearchDoesNotReturnNonMatchingTagsTest() {
-
-    }
-
-    @Test
-    public void tagFormSearchFieldDisplaysXWhenFilledTest() {
-
-    }
-
-    @Test
-    public void tagFormSearchFieldXClearsTextTest() {
-
-    }
-
-    @Test
-    public void newCardTagFormContainsCancelTextTest() {
-
-    }
-
-    @Test
-    public void newCardTagFormContainsOkTextTest() {
-
-    }
-
-    @Test
-    public void tagFormCancelButtonClickReturnsToNewCardFormTest() {
-
-    }
-
-    @Test
-    public void tagFormOkButtonClickReturnsToNewCardFormTest() {
-
-    }
-
-    @Test
-    public void tagFormOKButtonIsValidWithNoTagsSelectedTest() {
-
-    }
-
-    @Test
-    public void tagFormOkButtonUpdatesTagsFromSelectedToNotSelectedTest() {
-
-    }
-
-    @Test
-    public void newCardTagFieldReflectsSelectedTagsTest() {
-
-    }
-
-    @Test
-    public void newCardTagFieldIsEmptyWhenNoTagsAreSelectedTest() {
-
-    }
-
-    @Test
-    public void newCardReflectsAddedTagInputTest() {
-        // Better suited for DisplayNoteCardFrontBackTest?
-    }
-
-    @Test
-    public void newCardReflectsEmptyTagInputTest() {
-        // Better suited for DisplayNoteCardFrontBackTest?
-    }
+//
+//    @Test
+//    public void selectAllTagsButtonSelectsAllTagsTest() {
+//
+//    }
+//    @Test
+//    public void tagFormAddTagIconIsClickableTest() {
+//
+//    }
+//
+//    @Test
+//    public void addTagIconBringsUpNewTagFormTestTest() {
+//
+//    }
+//
+//    @Test
+//    public void addTagIconBringsUpAddTagTextTest() {
+//
+//    }
+//
+//    @Test
+//    public void newTagFormHasCancelButtonTest() {
+//
+//    }
+//
+//    @Test
+//    public void newTagFormHasOkButtonTest() {
+//
+//    }
+//
+//    @Test
+//    public void newTagFormCancelButtonIsClickableTest() {
+//
+//    }
+//
+//    @Test
+//    public void newTagFormCancelButtonClickReturnsToTagListTest() {
+//
+//    }
+//
+//    @Test
+//    public void newTagFormOkButtonIsClickableTest() {
+//
+//    }
+//
+//    @Test
+//    public void newTagFormTextInputFieldExistsTest() {
+//
+//    }
+//
+//    @Test
+//    public void newTagFormTakesInputTest() {
+//
+//    }
+//
+//    @Test
+//    public void newCardTagIsAddedToFormTest() {
+//
+//    }
+//
+//    @Test
+//    public void tagFormOKButtonIsValidWithNoTagsSelectedTest() {
+//
+//    }
+//
+//    @Test
+//    public void tagFormOkButtonUpdatesTagsFromSelectedToNotSelectedTest() {
+//
+//    }
+//
+//    @Test
+//    public void newCardTagFieldReflectsSelectedTagsTest() {
+//
+//    }
+//
+//    @Test
+//    public void newCardTagFieldIsEmptyWhenNoTagsAreSelectedTest() {
+//
+//    }
+//
+//    @Test
+//    public void newCardReflectsAddedTagInputTest() {
+//        // Better suited for DisplayNoteCardFrontBackTest?
+//    }
+//
+//    @Test
+//    public void newCardReflectsEmptyTagInputTest() {
+//        // Better suited for DisplayNoteCardFrontBackTest?
+//    }
 }

@@ -229,8 +229,7 @@ public class AddNoteCardImageTest {
                                                 0)),
                                 3))).perform(scrollTo(), click());
         onView(allOf(withText("Select a photo"),
-                        withParent(allOf(withId(com.google.android.apps.photos.R.id.toolbar),
-                                withParent(IsInstanceOf.<View>instanceOf(android.widget.LinearLayout.class)))),
+                        withParent(allOf(withParent(IsInstanceOf.<View>instanceOf(android.widget.LinearLayout.class)))),
                         isDisplayed())).check(matches(withText("Select a photo")));
     }
 
@@ -249,15 +248,6 @@ public class AddNoteCardImageTest {
 //                        isDisplayed())).check(matches(isDisplayed()));
     }
 
-    @Test
-    public void addImageFromCameraCanTakePhotoOnClickTest() {
-
-    }
-
-    @Test
-    public void addImageFromCameraUploadBringsUpMenuTest() {
-
-    }
 
     @Test
     public void imageUploadMenuAsksAboutCroppingTest() {
@@ -364,16 +354,25 @@ public class AddNoteCardImageTest {
                                 0),
                         isDisplayed())).perform(click());
     }
-
-    @Test
-    public void cardRendersImageTest() {
-        // Better suited for DisplayNoteCardFrontBackTest?
-    }
-
-    @Test
-    public void newImageCardShowsUpInDeckTest() {
-
-    }
+//
+//    @Test
+//    public void addImageFromCameraCanTakePhotoOnClickTest() {
+//
+//    }
+//
+//    @Test
+//    public void addImageFromCameraUploadBringsUpMenuTest() {
+//
+//    }
+//    @Test
+//    public void cardRendersImageTest() {
+//        // Better suited for DisplayNoteCardFrontBackTest?
+//    }
+//
+//    @Test
+//    public void newImageCardShowsUpInDeckTest() {
+//
+//    }
 
     private static Matcher<View> childAtPosition(
             final Matcher<View> parentMatcher, final int position) {
