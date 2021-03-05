@@ -102,8 +102,17 @@ public class AddNoteCardHTMLTest {
     }
 
     @Test
-    public void cardRendersHTMLTest() {
-        // Better suited for DisplayNoteCardFrontBackTest?
+    public void cardRendersSpecificHTMLTest() {
+        // Test HTML Headers in text field (Big T Button)
+        // FrontBack currently tests if rendered header size decreases with all headers decreasing
+        // So check each individually here
+    }
+
+    @Test
+    public void cardRendersSpecificFontSizeTest() {
+        // Test font size in text field (Big and small T button)
+        // FrontBack currently tests if rendered font size decreases with all fonts size decreasing
+        // So check each individually here
     }
 
     @Test
@@ -115,4 +124,6 @@ public class AddNoteCardHTMLTest {
     public void newHTMLCardShowsUpInDeckTest() {
 
     }
+
+
 }

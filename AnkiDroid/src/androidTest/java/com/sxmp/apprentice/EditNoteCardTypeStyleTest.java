@@ -13,7 +13,7 @@ public class EditNoteCardTypeStyleTest {
     }
 
     @Test
-    public void tempName() {
+    public void Test() {
 
     }
 }
