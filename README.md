@@ -14,6 +14,16 @@ Form input validation has always been particularly interesting to me due to pote
 
 These features were also chosen due to the relative frequency of their use. Since notecard manipulation is the main focus of this application, more tests should be carried in this area for the greatest impact on user satisfaction.
 
+## How Testing Was Used In Each Feature
+Adding notecard decks: To verify the new deck form worked and contained appropriate input elements
+Removing notecard decks: To verify that decks contained a deletion option and it functioned correctly
+Displaying the front and back of notecards: To verify that card displays were not empty and reflected content
+Editing notecard type styles: To verify that styles could be edited and reflected new HTML/CSS
+Adding types to notecards: To verify that new types could be added to cards for custom displays
+Adding HTML to notecards: To verify that HTML can be added to cards, renders properly, and isn't malicious
+Adding images to notecards: To verify that images can render after upload through the gallery or camera
+Adding tags to notecards: To verify that new and existing tags can be added in any quantity to notecards
+ 
 ## Feature Edge Cases Considered 
  - HTML script injection in notecard displays
  - Empty fields on form submission
