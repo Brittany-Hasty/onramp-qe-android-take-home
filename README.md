@@ -32,5 +32,12 @@ Problem 2:
     
     instead, broke the problem into two pieces: selected the deck containing the text 'testing' and then used 'selectedDescendantsMatch' to find the descendant with the correct id and see if it matched
 
-
+Problem 3:
+    
+    I was having difficulty finding element ids or identifying information to be used wih my ViewMatchers
+    
+    I used the XML layout to find ids initially but the volume of those files took a lot of time to sift through to find the information I needed
+    
+    After looking up if the Android emulator had anything similar to 'Inspect element', I found out about the layout inspector, which solved my problem
+     
 
