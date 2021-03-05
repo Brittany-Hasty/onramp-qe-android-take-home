@@ -26,7 +26,10 @@
   <component name="ChangeListManager">
     <list default="true" id="31af92d8-ada5-43b1-84d3-4316427eba1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNoteCardTypesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/AddNoteCardTypesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/ichi2/anki/IntentHandlerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/DisplayNoteCardFrontBackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/DisplayNoteCardFrontBackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/EditNoteCardTypeStyleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AnkiDroid/src/androidTest/java/com/sxmp/apprentice/EditNoteCardTypeStyleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -433,10 +436,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2009" y="2499" width="474" height="169" key="#com.google.gct.testrecorder.ui.TestClassNameInputDialog" timestamp="1614951278256">
+    <state x="2009" y="2499" width="484" height="169" key="#com.google.gct.testrecorder.ui.TestClassNameInputDialog" timestamp="1614953560339">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state x="2009" y="2499" width="474" height="169" key="#com.google.gct.testrecorder.ui.TestClassNameInputDialog/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614951278256" />
+    <state x="2009" y="2499" width="484" height="169" key="#com.google.gct.testrecorder.ui.TestClassNameInputDialog/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614953560339" />
     <state x="1803" y="2230" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1614932498286">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
@@ -445,38 +448,38 @@
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
     <state x="1240" y="2045" width="1660" height="855" key="AVDManager/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614817548474" />
-    <state width="796" height="245" key="GridCell.Tab.0.bottom" timestamp="1614952192797">
+    <state width="796" height="245" key="GridCell.Tab.0.bottom" timestamp="1614953098047">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="796" height="245" key="GridCell.Tab.0.bottom/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614952192797" />
-    <state width="796" height="245" key="GridCell.Tab.0.center" timestamp="1614952192797">
+    <state width="796" height="245" key="GridCell.Tab.0.bottom/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614953098047" />
+    <state width="796" height="245" key="GridCell.Tab.0.center" timestamp="1614953098047">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="796" height="245" key="GridCell.Tab.0.center/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614952192797" />
-    <state width="796" height="245" key="GridCell.Tab.0.left" timestamp="1614952192797">
+    <state width="796" height="245" key="GridCell.Tab.0.center/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614953098047" />
+    <state width="796" height="245" key="GridCell.Tab.0.left" timestamp="1614953098047">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="796" height="245" key="GridCell.Tab.0.left/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614952192797" />
-    <state width="796" height="245" key="GridCell.Tab.0.right" timestamp="1614952192797">
+    <state width="796" height="245" key="GridCell.Tab.0.left/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614953098047" />
+    <state width="796" height="245" key="GridCell.Tab.0.right" timestamp="1614953098047">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="796" height="245" key="GridCell.Tab.0.right/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614952192797" />
-    <state width="796" height="245" key="GridCell.Tab.1.bottom" timestamp="1614952191037">
+    <state width="796" height="245" key="GridCell.Tab.0.right/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614953098047" />
+    <state width="796" height="245" key="GridCell.Tab.1.bottom" timestamp="1614953096248">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="796" height="245" key="GridCell.Tab.1.bottom/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614952191037" />
-    <state width="796" height="245" key="GridCell.Tab.1.center" timestamp="1614952191036">
+    <state width="796" height="245" key="GridCell.Tab.1.bottom/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614953096248" />
+    <state width="796" height="245" key="GridCell.Tab.1.center" timestamp="1614953096248">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="796" height="245" key="GridCell.Tab.1.center/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614952191036" />
-    <state width="796" height="245" key="GridCell.Tab.1.left" timestamp="1614952191036">
+    <state width="796" height="245" key="GridCell.Tab.1.center/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614953096248" />
+    <state width="796" height="245" key="GridCell.Tab.1.left" timestamp="1614953096248">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="796" height="245" key="GridCell.Tab.1.left/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614952191036" />
-    <state width="796" height="245" key="GridCell.Tab.1.right" timestamp="1614952191036">
+    <state width="796" height="245" key="GridCell.Tab.1.left/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614953096248" />
+    <state width="796" height="245" key="GridCell.Tab.1.right" timestamp="1614953096248">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
-    <state width="796" height="245" key="GridCell.Tab.1.right/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614952191036" />
+    <state width="796" height="245" key="GridCell.Tab.1.right/1080.1920.1920.1080/1140.865.1020.1055/0.0.1080.1920/2160.840.1920.1080@1080.1920.1920.1080" timestamp="1614953096248" />
     <state x="1733" y="2177" width="672" height="678" key="search.everywhere.popup" timestamp="1614920326544">
       <screen x="1080" y="1920" width="1920" height="1080" />
     </state>
